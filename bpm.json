@@ -1,0 +1,20 @@
+{
+  "name": "possibility-matrix",
+  "version": "0.1.0",
+  "type": "convention",
+  "description": "Lays out a decision's answer space as a matrix instead of giving one answer or asking an open question. Every row has a 'Holds if' premise, so the human picks by checking which premise is true. Surfaces unknown unknowns, keeps the agent inside the decision's scope, and makes the agent's own wrong facts visible. Designed for test cases, bug fixes, approach decisions, user journeys, scoping, and triaging findings.",
+  "entry": "SKILL.md",
+  "scope": "global",
+  "token_cost": 900,
+  "keywords": ["decision", "judgment", "test-cases", "bug-fixes", "user-journeys", "approach", "triage", "learning", "scaffolding", "human-in-the-loop", "scope"],
+  "author": {
+    "name": "Dakota Fabro",
+    "github": "dakotafabro"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/dakotafabro/possibility-matrix",
+  "agents": ["goose", "claude-code", "codex", "cursor", "windsurf"],
+  "dependencies": [],
+  "conflicts": [],
+  "peers": ["learning-mode", "translator", "mastery"]
+}
